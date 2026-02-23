@@ -1,10 +1,10 @@
-public class sala {
+public class Sala {
     // Atributos privados
     private final int codigoSala;
     private final String descripcion;
 
 
-    public sala(int codigoSala, String descripcion) {
+    public Sala(int codigoSala, String descripcion) {
         this.codigoSala = codigoSala;
         this.descripcion = descripcion;
     }

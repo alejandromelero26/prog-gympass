@@ -1,13 +1,20 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+public class Main {
+    public static void main(String[] args) {
+        // Crear 2 socios
+        Socio socio1 = new Socio(101, "Carlos Pérez");
+        Socio socio2 = new Socio(102, "Ana García");
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+        // Crear 2 salas
+        Sala sala1 = new Sala(1, "Sala de Boxeo");
+        Sala sala2 = new Sala(2, "Sala de Pilates");
+
+        // Mostrar información por consola
+        System.out.println("--- Información de Socios ---");
+        System.out.println(socio1.toString());
+        System.out.println(socio2.toString());
+
+        System.out.println("\n--- Información de Salas ---");
+        System.out.println(sala1.toString());
+        System.out.println(sala2.toString());
     }
 }

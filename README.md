@@ -28,9 +28,9 @@ El gimnasio **GymPass** necesita un sistema básico para representar a sus socio
 Cada socio tiene:
 - Un número identificador único dentro del gimnasio
 - Un nombre
-Cada sala tiene: 
+Cada Sala tiene: 
 - Un número identificador único dentro del gimnasio
-- Descripción de la sala
+- Descripción de la Sala
 El gimnasio: 
 El sistema debe permitir representar correctamente a cada socio y mostrar su información en formato legible.
 
@@ -125,7 +125,7 @@ boolean designarResponsable(int numeroSocio)
 ### Gestión de salas
 
 ```java
-boolean incorporarSala(Sala sala)
+boolean incorporarSala(Sala Sala)
 ```
 - Inserta en primera posición libre.
 - No permite códigos repetidos.
@@ -197,7 +197,7 @@ boolean designarResponsable(int numeroSocio)
 
 ### Gestión de salas
 ```java
-boolean incorporarSala(Sala sala)
+boolean incorporarSala(Sala Sala)
 ```
 - Inserta en primera posición libre.
 - No permite códigos repetidos.
