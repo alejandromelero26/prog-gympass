@@ -7,6 +7,7 @@ public class Socio {
         this.nombre = nombre;
     }
     public int getNumSocio() {
+
         return numSocio;
     }
     public String getNombre() {

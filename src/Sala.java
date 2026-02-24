@@ -9,7 +9,6 @@ public class Sala {
         this.descripcion = descripcion;
     }
 
-
     public int getCodigoSala() {
         return codigoSala;
     }
