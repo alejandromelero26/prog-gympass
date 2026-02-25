@@ -73,15 +73,6 @@ public class Gimnasio {
     public int getResponsableId() {
         return responsableId;
     }
-
-    // Setters
-
-    public void setCodigo(String codigo) {
-        this.codigo = codigo;
-    }
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
 }
 
 
